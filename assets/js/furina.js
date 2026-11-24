@@ -2,6 +2,46 @@
 // rồi khai báo đường dẫn tương ứng trong danh sách bên dưới.
 const publishedPhotos = [
   // { src: '/assets/images/furina/ten-anh-cua-ban.jpg', alt: 'Mô tả ngắn về bức ảnh' },
+      {
+        src: "/assets/images/furina/BirthDay.jpg",
+        alt: "Furina Birthday"
+    },
+    {
+        src: "/assets/images/furina/cake.jpg",
+        alt: "Furina Birthday Cake"
+    },
+    {
+        src: "/assets/images/furina/Cooking.jpg",
+        alt: "Furina Cooking"
+    },
+    {
+        src: "/assets/images/furina/dance.jpg",
+        alt: "Furina Dance"
+    },
+    {
+        src: "/assets/images/furina/download (1)(1).jpg",
+        alt: "Furina Collection 1"
+    },
+    {
+        src: "/assets/images/furina/download (2).jpg",
+        alt: "Furina Collection 2"
+    },
+    {
+        src: "/assets/images/furina/download (3)(1).jpg",
+        alt: "Furina Collection 3"
+    },
+    {
+        src: "/assets/images/furina/download (4).jpg",
+        alt: "Furina Collection 4"
+    },
+    {
+        src: "/assets/images/furina/download.jpg",
+        alt: "Furina Collection"
+    },
+    {
+        src: "/assets/images/furina/EsFocalor.png",
+        alt: "Es Focalors"
+    }
 ];
 
 (() => {
