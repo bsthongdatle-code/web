@@ -20,19 +20,19 @@ const publishedPhotos = [
         alt: "Furina Dance"
     },
     {
-        src: "/assets/images/furina/download%20(1).jpg",
+        src: "/assets/images/furina/download(1).jpg",
         alt: "Furina Collection 1"
     },
     {
-        src: "/assets/images/furina/download%20(2).jpg",
+        src: "/assets/images/furina/download(2).jpg",
         alt: "Furina Collection 2"
     },
     {
-        src: "/assets/images/furina/download%20(3).jpg",
+        src: "/assets/images/furina/download(3).jpg",
         alt: "Furina Collection 3"
     },
     {
-        src: "/assets/images/furina/download%20(4).jpg",
+        src: "/assets/images/furina/download(4).jpg",
         alt: "Furina Collection 4"
     },
     {
