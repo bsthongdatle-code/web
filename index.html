@@ -1,1 +1,64 @@
-i dont know
+<!doctype html>
+<html lang="vi" data-theme="forest">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#39775a"><meta name="description" content="Học bài thôi - thư viện học tập Toán, Vật lí, Tiếng Anh lớp 11 và những góc nhỏ dành cho Nahida, Furina.">
+  <link rel="icon" href="/favicon.png?v=2" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <title>Học bài thôi</title>
+</head>
+<body class="">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="Học bài thôi - Trang chủ">
+      <span class="brand-mark">H</span><span>Học bài thôi<small>PERSONAL LEARNING SPACE</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a class="nav-link" href="/">Trang chủ</a>
+      <a class="nav-link" href="/library/">Thư viện học tập</a>
+      <a class="nav-link" href="/nawish.html">Lời chúc Nahida</a>
+      <a class="nav-link" href="/furina.html">Furina</a>
+    </nav>
+    <div class="theme-control"><label for="theme-choice">Màu giao diện</label>
+      <select id="theme-choice" data-theme-select aria-label="Chọn màu giao diện">
+        <option value="forest">Rừng xanh</option><option value="ocean">Đại dương</option>
+        <option value="lavender">Tử đinh hương</option><option value="rose">Hồng dịu</option>
+        <option value="midnight">Ban đêm</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero"><div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Không gian học tập cá nhân</span>
+      <h1>Học hôm nay,<br><span>hiểu sâu ngày mai.</span></h1>
+      <p class="hero-lead">Một nơi gọn gàng để học Toán, Vật lí và Tiếng Anh lớp 11; đồng thời lưu giữ những góc nhỏ mang dấu ấn riêng của bạn.</p>
+      <div class="hero-actions"><a class="button button-primary" href="/library/">Khám phá thư viện <span>→</span></a><a class="button button-secondary" href="/nawish.html">Ghé thăm Nahida</a></div>
+    </div>
+    <aside class="hero-aside"><span class="aside-mark">✦</span><h2>Một chút tò mò. Một chút kỷ luật.</h2><p>Hiểu bản chất, luyện tập có phương pháp và tiến bộ theo nhịp độ của riêng mình.</p><span class="aside-foot">LEARN · EXPLORE · GROW</span></aside>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <div class="section-heading"><div><span class="eyebrow">Ba không gian</span><h2>Chọn nơi bạn muốn bắt đầu</h2></div><p>Điều hướng nhanh đến từng khu vực. Màu giao diện có thể thay đổi ở góc phải phía trên và được lưu trên trình duyệt.</p></div>
+    <div class="feature-grid">
+      <a class="feature-card" href="/library/"><span class="feature-icon">⌘</span><h3>Thư viện học tập</h3><p>Hệ thống kiến thức Toán, Vật lí và Tiếng Anh lớp 11; có công thức, ví dụ, tìm kiếm, đánh dấu bài đã học và câu hỏi kiểm tra nhanh.</p><span class="card-link">Mở thư viện <span>→</span></span></a>
+      <a class="feature-card" href="/nawish.html"><span class="feature-icon">✧</span><h3>Lời chúc của Nahida</h3><p>Những câu nói về tri thức, lời bình của Nahida và các lời nhắn động viên. Có thể nhận lời chúc ngẫu nhiên, sao chép và lưu câu yêu thích.</p><span class="card-link">Ghé khu vườn tri thức <span>→</span></span></a>
+      <a class="feature-card" href="/furina.html"><span class="feature-icon">◇</span><h3>Những lời yêu thương dành cho Furina</h3><p>Một phòng trưng bày ảnh riêng. Chọn ảnh để xem thử ngay trên trình duyệt hoặc thêm ảnh vào repository để công khai trên website.</p><span class="card-link">Mở bộ sưu tập <span>→</span></span></a>
+    </div>
+  </div></section>
+
+  <section class="container"><div class="info-strip"><div><h3>Không gian này được tạo để phục vụ việc học thật sự.</h3><p>Tiến độ đã đánh dấu và màu giao diện được lưu cục bộ trên trình duyệt bạn đang sử dụng.</p></div><div class="info-number">11<span style="font-size:13px;font-weight:600"> / GRADE</span></div></div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner">
+  <span>© <span data-year></span> Học bài thôi · Một góc học tập cá nhân.</span>
+  <div class="footer-links"><a href="/library/">Thư viện</a><a href="/nawish.html">Nahida</a><a href="/furina.html">Furina</a></div>
+</div></footer>
+<script>document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());</script>
+<script src="/assets/js/site.js"></script>
+</body></html>
