@@ -21,7 +21,7 @@ const publishedPhotos = [
     },
     {
         src: "/assets/images/furina/download(1).jpg",
-        alt: "Furina Collection 1"
+        alt: "Tôi yêu Furina"
     },
     {
         src: "/assets/images/furina/download(2).jpg",
