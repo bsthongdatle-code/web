@@ -19,25 +19,10 @@ const publishedPhotos = [
         src: "/assets/images/furina/dance.jpg",
         alt: "Furina Dance"
     },
-    {
-        src: "/assets/images/furina/download(1).jpg",
-        alt: "Tôi yêu Furina"
-    },
-    {
-        src: "/assets/images/furina/download(2).jpg",
-        alt: "Furina Collection 2"
-    },
-    {
-        src: "/assets/images/furina/download(3).jpg",
-        alt: "Furina Collection 3"
-    },
-    {
-        src: "/assets/images/furina/download(4).jpg",
-        alt: "Furina Collection 4"
-    },
+
     {
         src: "/assets/images/furina/download.jpg",
-        alt: "Furina Collection"
+        alt: "Xinh quá à"
     },
     {
         src: "/assets/images/furina/EsFocalor.png",
