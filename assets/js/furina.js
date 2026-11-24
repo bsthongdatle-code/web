@@ -1,8 +1,9 @@
 // Ảnh muốn hiển thị công khai trên website: thêm file vào assets/images/furina/
 // rồi khai báo đường dẫn tương ứng trong danh sách bên dưới.
-const publishedPhotos = [
   // { src: '/assets/images/furina/ten-anh-cua-ban.jpg', alt: 'Mô tả ngắn về bức ảnh' },
-      {
+
+const publishedPhotos = [
+    {
         src: "/assets/images/furina/BirthDay.jpg",
         alt: "Furina Birthday"
     },
@@ -19,19 +20,19 @@ const publishedPhotos = [
         alt: "Furina Dance"
     },
     {
-        src: "/assets/images/furina/download (1)(1).jpg",
+        src: "/assets/images/furina/download%20(1).jpg",
         alt: "Furina Collection 1"
     },
     {
-        src: "/assets/images/furina/download (2).jpg",
+        src: "/assets/images/furina/download%20(2).jpg",
         alt: "Furina Collection 2"
     },
     {
-        src: "/assets/images/furina/download (3)(1).jpg",
+        src: "/assets/images/furina/download%20(3).jpg",
         alt: "Furina Collection 3"
     },
     {
-        src: "/assets/images/furina/download (4).jpg",
+        src: "/assets/images/furina/download%20(4).jpg",
         alt: "Furina Collection 4"
     },
     {
